@@ -2640,129 +2640,11 @@
         bt = n.n(vt),
         yt = [
           {
-            id: 18,
-            title: 'Hosting Modern',
-            thumb_url: dt.a,
-            nextLink: '/hostingmodern',
-            badge: 'New',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/hostingmodern'
-          },
-          {
-            id: 14,
-            title: 'Crypto Modern',
-            thumb_url: lt.a,
-            nextLink: '/cryptomodern',
-            badge: 'New',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/cryptomodern'
-          },
-          {
             id: 1,
-            title: 'App Modern',
-            thumb_url: ct.a,
-            nextLink: '/appmodern',
-            badge: 'New',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/appmodern'
-          },
-          {
-            id: 17,
-            title: 'Agency Digital',
-            thumb_url: ft.a,
-            nextLink: '/agencydigital',
-            badge: 'New',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/agencydigital'
-          },
-          {
-            id: 2,
-            title: 'Interior Landing',
-            thumb_url: D.a,
-            nextLink: '/interior',
-            badge: 'New',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/interior'
-          },
-          {
-            id: 16,
-            title: 'Agency Modern',
-            thumb_url: bt.a,
-            nextLink: '/agencymodern',
-            badge: 'New',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/agencymodern'
-          },
-          {
-            id: 3,
-            title: 'App Classic',
-            thumb_url: M.a,
-            nextLink: '/appclassic',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/appclassic'
-          },
-          {
-            id: 4,
-            title: 'Charity Landing',
-            thumb_url: G.a,
-            nextLink: '/charity',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/charity'
-          },
-          {
-            id: 5,
-            title: 'SAAS Landing Page',
-            thumb_url: q.a,
-            nextLink: '/saas',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/saas'
-          },
-          {
-            id: 6,
-            title: 'SAAS Modern',
-            thumb_url: W.a,
-            nextLink: '/saasmodern',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/saasmodern'
-          },
-          {
-            id: 7,
-            title: 'SAAS Classic',
-            thumb_url: U.a,
-            nextLink: '/saasclassic',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/saasclassic'
-          },
-          {
-            id: 8,
-            title: 'App Landing Page',
-            thumb_url: V.a,
-            nextLink: '/app',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/app'
-          },
-          {
-            id: 9,
-            title: 'Agency Landing Page',
-            thumb_url: Z.a,
-            nextLink: '/agency',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/agency'
-          },
-          {
-            id: 10,
-            title: 'Hosting Landing Page',
-            thumb_url: tt.a,
-            nextLink: '/hosting',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/hosting'
-          },
-          {
-            id: 11,
-            title: 'Portfolio Landing Page',
-            thumb_url: nt.a,
-            nextLink: '/portfolio',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/portfolio'
-          },
-          {
-            id: 12,
-            title: 'Ride Sharing',
-            thumb_url: rt.a,
-            nextLink: '/ride',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/ride'
-          },
-          {
-            id: 13,
-            title: 'Crypto Landing Page',
-            thumb_url: at.a,
-            nextLink: '/crypto',
-            gatsbyLink: 'https://superprops-gatsby.now.sh/crypto'
+            title: 'Join our Community',
+            nextLink: 'https://www.linkedin.com/groups/13910153/',
+            badge: '',
+            gatsbyLink: 'https://www.linkedin.com/groups/13910153/'
           }
         ],
         mt = i.a.createElement
@@ -2818,7 +2700,7 @@
         return mt(
           P,
           null,
-          mt(O.a, Object(x.a)({ content: 'Explore All demos' }, e)),
+          mt(O.a, Object(x.a)({ content: 'Explore the community' }, e)),
           mt(
             _.a,
             o,
@@ -2851,7 +2733,7 @@
                             },
                             onMouseLeave: l
                           },
-                          'Gatsby Demo'
+                          ' LinkedIn Community'
                         )
                       ),
                       mt(
@@ -2867,7 +2749,7 @@
                             },
                             onMouseLeave: l
                           },
-                          'Next js Demo'
+                          'Sign Up'
                         )
                       )
                     ),
@@ -2925,23 +2807,9 @@
           kt(s.a, {
             colors: e,
             onClick: function () {
-              Object(a.c)({
-                config: {
-                  className: 'demo_switcher_modal',
-                  disableDragging: !0,
-                  width: '100%',
-                  height: '100%',
-                  animationFrom: { transform: 'translateX(100px)' },
-                  animationTo: { transform: 'translateX(0)' },
-                  transition: { mass: 1, tension: 180, friction: 26 }
-                },
-                component: jt,
-                componentProps: {},
-                closeComponent: _t,
-                closeOnClickOutside: !1
-              })
+              window.open('https://www.linkedin.com/groups/13910153/')
             },
-            title: 'Here Click'
+            title: 'Click Here'
           })
         )
       }
@@ -3099,16 +2967,16 @@
               s.a,
               {
                 href:
-                  'https://1.envato.market/c/1309180/275988/4415?u=https%3A%2F%2Fthemeforest.net%2Fitem%2Freact-next-modern-landing-page-template%2F23169879'
+                  'https://www.linkedin.com/groups/13910153/'
               },
               v(
                 'a',
                 { target: '_blank' },
-                v(c.a, { src: d.a, alt: 'Buy Now From Envato' }),
+                v(c.a, { src: d.a, alt: 'Click here ' }),
                 v(
                   u.a,
                   Object(o.a)({}, e, {
-                    title: 'Buy Now',
+                    title: 'Click Here',
                     className: 'envato-buy-button'
                   })
                 )

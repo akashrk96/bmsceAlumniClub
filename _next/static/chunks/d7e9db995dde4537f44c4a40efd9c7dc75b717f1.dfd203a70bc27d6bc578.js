@@ -310,24 +310,24 @@
                         g
                       )
                     ),
-                    button: A(function () {
-                      return A(
-                        i.Fragment,
-                        null,
-                        A(p.a, Object(n.a)({ title: 'LEARN MORE' }, f)),
-                        A(
-                          p.a,
-                          Object(n.a)(
-                            {
-                              title: 'WATCH WORKS',
-                              variant: 'textButton',
-                              icon: A('i', { className: 'flaticon-next' })
-                            },
-                            u
-                          )
-                        )
-                      )
-                    }, null)
+                    // button: A(function () {
+                    //   return A(
+                    //     i.Fragment,
+                    //     null,
+                    //     A(p.a, Object(n.a)({ 'a',title: 'LEARN MORE' }, f)),
+                    //     A(
+                    //       p.a,
+                    //       Object(n.a)(
+                    //         {
+                    //           title: 'WATCH WORKS',
+                    //           variant: 'textButton',
+                    //           icon: A('i', { className: 'flaticon-next' })
+                    //         },
+                    //         u
+                    //       )
+                    //     )
+                    //   )
+                    // }, null)
                   })
                 )
               )
@@ -780,7 +780,7 @@
           displayName: 'qualitySectionstyle__QualitySectionWrapper',
           componentId: 'yvxz9u-0'
         })([
-          "padding:110px 0 60px;min-height:600px;overflow:hidden;@media (max-width:990px){padding:0 0 30px;}@media only screen and (min-width:1366px){min-height:895px;}.info-sec-container{width:100%;max-width:100%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:-1;@media only screen and (max-width:991px){display:none;}}.feature__block{margin:15px 0;.icon__wrapper{flex-shrink:0;position:relative;background:linear-gradient( -60deg,rgba(241,39,17,0.8),rgba(245,175,25,0.8) );.flaticon-flask{&:before{margin-left:6px;}}&:before,&:after{content:'';width:24px;height:100%;position:absolute;}&:before{transform:rotate(45deg);background-color:rgba(255,255,255,0.15);}&:after{transform:rotate(-45deg);background-color:rgba(0,0,0,0.05);}}}.row{> .col{&:nth-child(2){.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(50,207,167,0.9),rgba(150,201,61,0.9) );}}}&:nth-child(3){.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(236,0,140,0.85),rgba(255,103,103,0.85) );}}}&:nth-child(4){.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(47,128,237,0.85),rgba(86,204,242,0.85) );}}}&:nth-child(5){.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(0,57,115,0.85),rgba(299,299,199,0.85) );}}}&:last-child{.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(110,72,170,0.85),rgba(192,91,210,0.85) );}}}}}"
+          "padding:110px 0 60px;min-height:600px;overflow:hidden;@media (max-width:990px){padding:0 0 30px;}@media only screen and (min-width:1366px){min-height:895px;}.info-sec-container{width:100%;max-width:100%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:-1;@media only screen and (max-width:991px){display:none;}}.feature__block{margin:15px 0;.icon__wrapper{flex-shrink:0;position:relative;background:linear-gradient( -60deg,rgba(241,39,17,0.8),rgba(245,175,25,0.8) );.flaticon-flask{&:before{margin-left:6px;}}&:before,&:after{content:'';width:24px;height:100%;position:absolute;}&:before{transform:rotate(45deg);background-color:rgba(255,255,255,0.15);}&:after{transform:rotate(-45deg);background-color:rgba(0,0,0,0.05);}}}.row{> .col{&:nth-child(2){.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(50,207,167,0.9),rgba(150,201,61,0.9) );}}}&:nth-child(3){.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(236,0,140,0.85),rgba(255,103,103,0.85) );}}}&:nth-child(4){.feature__block{.icon__wrapper{background-color:linear-gradient( -60deg,rgba(47,128,237,0.85),rgba(86,204,242,0.85) );}}}&:nth-child(5){.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(0,57,115,0.85),rgba(299,299,199,0.85) );}}}&:last-child{.feature__block{.icon__wrapper{background:linear-gradient( -60deg,rgba(110,72,170,0.85),rgba(192,91,210,0.85) );}}}}}"
         ]),
         x = o('sOBS'),
         u = o('m/a5'),
@@ -1164,7 +1164,11 @@
                         r
                       )
                     ),
-                    button: v(g.a, Object(n.a)({ title: 'WORK HISTORY' }, c))
+                    button: v(
+                      d.a,
+                      Object(n.a)({ className: 'card' }, i),
+                      v(l.a, { href: 'https://www.linkedin.com/groups/13910153/' }, v('a', null, 'Join the community'))
+                    )
                   })
                 ),
                 v(
@@ -1598,7 +1602,7 @@
                 )
               })
             ),
-            V(b.a, { content: 'Copyrights 2019 @RedQ Inc' })
+            V(b.a, { content: 'Copyrights 2020 @bmsAlumniClub' })
           )
         },
         q = o('8qGZ'),
@@ -1817,7 +1821,7 @@
                       title: O(s.a, Object(n.a)({ content: e.title }, b))
                     })
                   }),
-                  O(f.a, Object(n.a)({ title: 'DISCOVER ITEM' }, x))
+                  // O(f.a, Object(n.a)({ title: 'DISCOVER ITEM' }, x))             
                 )
               )
             )
@@ -2332,39 +2336,13 @@
         g = m,
         b = a.a.createElement,
         x = function (e) {
-          var t = e.sectionHeader,
-            o = e.sectionTitle,
-            i = e.btnStyle
+          var t = e.sectionHeader
           return b(
             g,
-            { id: 'newsletterSection' },
-            b(
-              s.a,
-              null,
               b(
                 r.a,
                 t,
-                b(l.a, Object(n.a)({ content: 'Subscribe Newsletter' }, o))
-              ),
-              b(
-                r.a,
-                null,
-                b(
-                  f,
-                  null,
-                  b(c.a, {
-                    inputType: 'email',
-                    isMaterial: !1,
-                    placeholder: 'Email Address',
-                    'aria-label': 'email'
-                  }),
-                  b(
-                    p.a,
-                    Object(n.a)({ type: 'button', title: 'SEND MESSAGE' }, i)
-                  )
-                )
               )
-            )
           )
         }
       x.defaultProps = {
@@ -2556,12 +2534,12 @@
           menuItems: [
             { label: 'Feature', path: '#featureSection', offset: '80' },
             {
-              label: 'Work History',
+              label: 'What we are trying to do?',
               path: '#workHistorySection',
               offset: '67'
             },
-            { label: 'Portfolio', path: '#blogSection', offset: '67' },
-            { label: 'Quality feature', path: '#qualitySection', offset: '67' },
+            { label: 'What is this about?', path: '#blogSection', offset: '67' },
+            { label: 'Numbers', path: '#qualitySection', offset: '67' },
             {
               label: 'Testimonial',
               path: '#testimonialSection',
@@ -2697,7 +2675,7 @@
                 { id: 1, icon: 'flaticon-facebook-logo', url: 'https://www.facebook.com/karanprasad22' },
                 { id: 1, icon: 'flaticon-twitter-logo-silhouette', url: 'https://twitter.com/karanprasad22' },
                 { id: 1, icon: 'flaticon-instagram', url: 'https://www.instagram.com/karan.prasad/?hl=en' },
-                { id: 1, icon: '_next/static/images/linkedin.svg', url: '#' }
+                { id: 1, icon: 'flaticon-dribble-logo', url: '#' }
               ]
             },
             {
